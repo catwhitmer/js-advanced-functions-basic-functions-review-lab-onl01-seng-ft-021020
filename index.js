@@ -18,6 +18,6 @@ let calculator = {
   }
 }
 
-function actionPlayer () {
+function actionPlayer (int, array) {
   
 }
