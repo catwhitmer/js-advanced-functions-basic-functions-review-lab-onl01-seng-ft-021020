@@ -17,3 +17,7 @@ let calculator = {
     1 + 3
   }
 }
+
+function actionPlayer () {
+  
+}
