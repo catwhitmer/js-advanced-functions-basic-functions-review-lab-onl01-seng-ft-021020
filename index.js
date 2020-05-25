@@ -12,11 +12,24 @@ function wrapAdjective (string="*") {
   }
 }
 
-let calculator = {
-  add() {
-    1 + 3
-  }
-}
+const Calculator = {
+
+    add: function(a, b){
+        return a + b;
+    },
+
+    subtract: function(a, b){
+        return a - b;
+    },
+
+    multiply: function(a, b){
+        return a * b;
+    },
+
+    divide: function(a, b){
+        return a / b;
+    }
+};
 
 function actionPlayer (int, array) {
   
