@@ -31,7 +31,7 @@ const Calculator = {
     }
 };
 
-function actionPlayer (int, array) {
+function actionPlayer (stInt, array) {
   let int = starting_int;
     function_array.forEach(func => {
         int = func(int)
